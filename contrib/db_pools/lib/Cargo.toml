@@ -65,9 +65,7 @@ features = ["compat-3-0-0", "rustls-tls"]
 optional = true
 
 [dependencies.diesel-async]
-git = "https://github.com/weiznich/diesel_async"
-rev = "ba8ad28036fb8324805480d5c24e1eb41ceccbe5"
-#version = "0.6.1"
+version = "0.6.1"
 default-features = false
 features = ["async-connection-wrapper"]
 optional = true
